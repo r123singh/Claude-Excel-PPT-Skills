@@ -24,7 +24,7 @@ $body = @{
     messages = @(
         @{
             role = "user"
-            content = "Create a presentation about renewable energy"
+            content = "Create a single slide presentation about renewable energy"
         }
     )
     tools = @(
@@ -38,7 +38,7 @@ $body = @{
 $response = Invoke-RestMethod -Method Post -Uri "https://api.anthropic.com/v1/messages" -Headers $headers -Body $body
 
 # Format response as JSON for better readability
-$response | ConvertTo-Json -Depth 20 | Write-Host
+# $response | ConvertTo-Json -Depth 20 | Write-Host
 
 # Or save to file
 # $response | ConvertTo-Json -Depth 20 | Out-File -FilePath "response.json" -Encoding utf8

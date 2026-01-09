@@ -3,7 +3,7 @@
 Generate PowerPoint presentations and Excel spreadsheets using Anthropic's Claude Skills API using PowerShell and Bash scripts.
 
 ![Output](output.png)
-
+![Output2](output2.png)
 ## Overview
 
 Want to generate PowerPoint presentations or Excel spreadsheets using AI? This repository demonstrates how to use **Claude Skills API** to create professional documents programmatically using PowerShell and Bash scripts. Claude Skills are pre-built capabilities that allow Claude to perform specific tasks like creating PPTX files or XLSX spreadsheets.
