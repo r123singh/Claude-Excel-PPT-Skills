@@ -2,7 +2,7 @@
 
 Generate PowerPoint presentations and Excel spreadsheets using Anthropic's Claude Skills API using PowerShell and Bash scripts.
 
-[Terminal](output.png)
+![Output](output.png)
 
 ## Overview
 
